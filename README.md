@@ -1,73 +1,39 @@
-# React + TypeScript + Vite
+# Meu Portfólio - Luana Oliveira
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto de portfólio pessoal desenvolvido com React + Vite, com layout criado inicialmente no Figma e posteriormente transformado em código. 
 
-Currently, two official plugins are available:
+O objetivo deste projeto é apresentar minha habilidades em UX/UI Design e Desenvolvimento Front-end, além de compartilhar meus projetos e experiências.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Tecnologias Utilizadas
+- React 
+- Vite
+- TypeScript
+- CSS
+- Figma
 
-## React Compiler
+# Design
+O layout deste projeto foi desenvolvido no figma, considerando príncipios de: 
+- Tipografia
+- Hierarquia visual
+- Layout responsivo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Posteriormente o design foi convertido em código.
 
-## Expanding the ESLint configuration
+# Funcionalidades 
+- Layoutbaseado em design do figma;
+- Componentização com react;
+- Estrutura organizada por componentes;
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+# Objetivo do Projeto
+Este projeto faz parte da minha jornada de aprendizado em Front-end aplicando conceitos:
+- Estrutura de componentes;
+- HTML Semântico;
+- CSS moderno;
+- Organização de projeto.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+# Em Desenvolvimento
+Este portfólio está em constante evolução. Novas seções e projetos serão adicionados conforme avanço nos estudos.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+# Autora 
+Luana Olivier
+Ux/Ui Designer | Front end
