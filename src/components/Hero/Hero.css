@@ -1,0 +1,116 @@
+.hero {
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  height: 800px;
+  margin: 0 auto;
+}
+
+.hero-topo {
+  position: relative;
+  z-index: 3;
+}
+
+.titulo {
+  position: absolute;
+
+  left: 319px;
+  top: 253px;
+
+  font-family: "Prompt", sans-serif;
+  font-size: 24px;
+
+  letter-spacing: 0.4em;
+  line-height: 1.14;
+
+  font-weight: 300;
+
+  opacity: 0.6;
+
+  z-index: 3;
+
+  color:black;
+}
+
+.hero-central {
+  position: relative;
+  text-align: center;
+  margin-top: 40px;
+  line-height: 1;
+  z-index: 1;
+}
+
+.port{
+  position: absolute;
+
+  left: 319px;
+  top: 300px;
+
+  font-family: "Gwendolyn", cursive;
+  font-size: 250px;
+  font-weight: 700;
+
+  transform: translateY(-45px);
+
+  color:black;
+
+}
+
+.folio {
+  position: absolute;
+
+  left: 720px;
+  top: 338px;
+
+  font-family: "Poiret One", sans-serif;
+  font-size: 170px;
+
+  font-weight: 400;
+
+  transform: translateY(30px) translateX(-14px);
+
+  color:black;
+}
+
+.hero-name {
+  margin-top: 10px;
+}
+
+.nome {
+  position: absolute;
+
+  left: 869px;
+  top: 556px;
+
+  font-size: "Prompt", sans-serif;
+  font-size: 24px;
+  letter-spacing: 0.4em;
+  font-weight: 300;
+  opacity: 0.6;
+
+  z-index: 3;
+}
+
+.linha-horizontal {
+  position: absolute;
+
+  width: 1088px;
+  height: 1px;
+
+  background-color: black;
+
+  top: 540px;
+  left: 120px;
+}
+
+.linha-vertical {
+  position: absolute;
+
+  height: 260px;
+  width: 1px;
+
+  background-color: black;
+
+  top: 540px;
+  left: 120px;
+}
